@@ -84,32 +84,12 @@ I developed a stock prediction app using Streamlit, leveraging the powerful fore
   cd Stocks-Prediction
 ```
 
-**STEP 3:** Create a virtual environment
-(For Windows)
-```bash
-  python -m venv virtualenv
-```
-(For MacOS and Linux)
-```bash
-  python3 -m venv virtualenv
-```
-
-**STEP 4:** Activate the virtual environment.
-(For Windows)
-```bash
-  virtualenv\Scripts\activate
-```
-(For MacOS and Linux)
-```bash
-  source virtualenv/bin/activate
-```
-
-**STEP 5:** Install the dependencies.
+**STEP 3:** Install the dependencies.
 ```bash
   pip install -r requirements.txt
 ```
 
-**STEP 6:** Run the application.
+**STEP 4:** Run the application.
 ```bash
   streamlit run main.py
 ```
